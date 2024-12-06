@@ -1,0 +1,16 @@
+int mat,fizik,turkce,muzik,ortalama;
+        Scanner inp =new Scanner(System.in);
+        System.out.print("Matematik Notunuzu Giriniz:");
+        mat=inp.nextInt();
+        System.out.print("Fizik Notunuzu Giriniz:");
+        fizik=inp.nextInt();
+        System.out.print("Türkçe Notunuzu Giriniz:");
+        turkce=inp.nextInt();
+        System.out.print("Müzik Notunuzu Giriniz:");
+        muzik=inp.nextInt();
+        ortalama=mat+fizik+turkce+muzik;
+        if (ortalama<=54){
+            System.out.println("kaldınız");
+        }else{
+            System.out.println("geçtiniz");
+        }
